@@ -3,7 +3,7 @@ h1 {
 }
 body {
   color: #414141;
-  background-color: pink;
+  background-color: white;
   text-align: left;
   padding-left: 200px;
   padding-right: 200px;
@@ -11,7 +11,8 @@ body {
 }
 p {
   background-color: white;
-  padding: 25px;
+  padding: 16px;
+  text-indent: 50px;
 }
 .writinglink {
   color: #FFF;
@@ -38,6 +39,26 @@ p {
   margin: 20px;
   width: 200px;
 }
+
+.writingbutton {
+  color: #FFF;
+  background-color: #67C3FF;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  margin: 80px auto;
+  width: 300px;
+  box-sizing: border-box;
+}
+.writingbutton:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -56,6 +77,8 @@ a:link {
   display: flex;
   justify-content: center;
 }
+
+
 
 #mybutt {
   position: fixed;
