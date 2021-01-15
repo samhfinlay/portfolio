@@ -7,15 +7,18 @@
   width: 800px;
   display: flex;
   margin: 20px auto;
+  margin: 0px auto;
 }
 img {
   max-width: 100%;
 }
 .vertleft {
   margin: 20px;
+  width: 50%;
 }
 .vertright {
   margin: 20px;
+  width: 50%;
 }
 #mybutt {
   position: fixed;
