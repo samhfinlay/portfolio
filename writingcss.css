@@ -8,7 +8,9 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   font-size: 1.5em;
+  background-image: url("SMPTE_Color_Bars.svg.jpg");
 }
+
 p {
   background-color: white;
   padding: 16px;

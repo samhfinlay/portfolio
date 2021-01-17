@@ -1,3 +1,15 @@
+body {
+  background-image: url("Untitled-1-01-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+  border: 2px;
+  border-style: solid;
+}
+
 .horizontal {
   width: 600px;
   display: flex;

@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-position: center;
+ background-repeat: no-repeat;
+ height: 100%;
+ background-size: cover;
+}
+
 .menu-container {
   margin: 50px auto;
   color: #fff;
@@ -14,13 +21,11 @@
   background-image: repeating-linear-gradient(purple, lightblue);
 }
 
-.menu {  /* For debugging */
+.menu {
   width: 800px;
  display: flex;
  text-decoration: none;
  justify-content: center;
-
-
 }
 
 a:link {
