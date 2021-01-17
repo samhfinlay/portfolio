@@ -2,12 +2,18 @@ h1 {
   text-align: center;
 }
 body {
-  color: #414141;
-  background-color: white;
+  color: black;
   text-align: left;
   padding-left: 200px;
   padding-right: 200px;
   font-size: 1.5em;
+
+  background-position: center;
+   background-repeat: no-repeat;
+   height: 100%;
+  background-image: url("SMPTE_Color_Bars.svg.jpg");
+  background-size: cover;
+
 }
 
 p {
@@ -22,7 +28,7 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  border: 2px solid #5D6063;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 20px;
   width: 200px;
@@ -35,7 +41,7 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  border: 2px solid #5D6063;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 20px;
   width: 200px;
@@ -48,7 +54,7 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  border: 2px solid #5D6063;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 80px auto;
   width: 300px;
@@ -101,7 +107,7 @@ a:link {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  border: 2px solid #5D6063;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 15px auto;
   width: 440px;

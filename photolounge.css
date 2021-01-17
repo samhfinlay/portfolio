@@ -5,20 +5,18 @@
 }
 
 body {
-  background-position: center;
+background-position: center;
  background-repeat: no-repeat;
  height: 100%;
+ background-image: url("SMPTE_Color_Bars.svg.jpg");
  background-size: cover;
 }
 
 .menu-container {
   margin: 50px auto;
   color: #fff;
-  background-color: purple;
   display: flex;
   width: 500px;
-  border-radius: 15px;
-  background-image: repeating-linear-gradient(purple, lightblue);
 }
 
 .menu {
@@ -26,6 +24,7 @@ body {
  display: flex;
  text-decoration: none;
  justify-content: center;
+ font-size: 1.2em;
 }
 
 a:link {
