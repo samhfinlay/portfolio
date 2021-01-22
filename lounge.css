@@ -1,6 +1,8 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  margin: 0px auto;
+  margin-top: 20px;
 }
 
 #lefttxt {
@@ -9,9 +11,10 @@
   margin-right: 50px;
 }
 
-#face {
-  height: 100px;
-  margin-top: 6px;
+#handz {
+  height: 150px;
+  margin-top: 0;
+  margin-left: 16px;
 }
 
 #righttxt {
@@ -102,6 +105,8 @@ a:link {
 .menu-container {
   display: flex;
   justify-content: center;
+  margin: 0px auto;
+  margin-top: 0px;
 }
 
 #mybutt {
