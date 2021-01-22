@@ -16,8 +16,15 @@ img {
   width: 800px;
   display: flex;
   margin: 20px auto;
-  margin: 0px auto;
 }
+
+.singlevert {
+  width: 400px;
+  height: auto;
+  display: flex;
+  margin: 20px auto;
+}
+
 img {
   max-width: 100%;
 }

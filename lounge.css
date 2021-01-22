@@ -1,6 +1,26 @@
-h1 {
-  text-align: center;
+.header-container {
+  display: flex;
+  justify-content: space-between;
 }
+
+#lefttxt {
+  text-align: left;
+  font-size: 51px;
+  margin-right: 50px;
+}
+
+#face {
+  height: 100px;
+  margin-top: 6px;
+}
+
+#righttxt {
+  text-align: right;
+  font-size: 51px;
+  margin-left: 50px;
+  height: 0;
+}
+
 body {
   color: black;
   text-align: left;
@@ -13,7 +33,6 @@ body {
    height: 100%;
   background-image: url("SMPTE_Color_Bars.svg.jpg");
   background-size: cover;
-
 }
 
 p {
@@ -84,8 +103,6 @@ a:link {
   display: flex;
   justify-content: center;
 }
-
-
 
 #mybutt {
   position: fixed;
