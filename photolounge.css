@@ -32,8 +32,8 @@ a:link {
 }
 
 #reallyoldstuff {
-  color: #FFF;
-  background-color: pink;
+  color: black;
+  background-color: #C5B1FF;
   font-weight: bold;
   padding-top: 90px;
   text-align: center;
@@ -52,8 +52,8 @@ a:link {
   color: black;
 }
 #favorites {
-  color: #FFF;
-  background-color: lightblue;
+  color: black;
+  background-color: #FFB1C4;
   font-weight: bold;
   padding-top: 90px;
   text-align: center;
@@ -71,8 +71,8 @@ a:link {
 }
 
 #oldstuff {
-  color: #FFF;
-  background-color: orange;
+  color: black;
+  background-color: #EBFFB1;
   font-weight: bold;
   padding-top: 90px;
   text-align: center;
@@ -90,8 +90,8 @@ a:link {
 }
 
 #newstuff {
-  color: #FFF;
-  background-color: #FF5252;
+  color: black;
+  background-color: #B1FFEC;
   font-weight: bold;
   padding-top: 90px;
   text-align: center;

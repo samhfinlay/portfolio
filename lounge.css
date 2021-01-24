@@ -1,39 +1,53 @@
 .header-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0px auto;
   margin-top: 20px;
 }
 
+header {
+  justify-content: center;
+}
+
 #lefttxt {
-  text-align: left;
+  text-align: right;
   font-size: 51px;
-  margin-right: 32px;
+  margin-right: 0;
+  text-indent: 0px;
+}
+
+#leftbox {
+  width: 400px;
 }
 
 #handz {
   height: 150px;
   margin-top: 0;
-  margin-left: 16px;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 #righttxt {
-  text-align: right;
+  text-align: left;
   font-size: 51px;
-  margin-left: 32px;
+  margin-left: 0px;
   height: 0;
+  text-indent: 0px;
+}
+
+#rightbox {
+  width: 400px;
 }
 
 body {
   color: black;
-  text-align: left;
   padding-left: 200px;
   padding-right: 200px;
   font-size: 1.5em;
 
   background-position: center;
-   background-repeat: no-repeat;
-   height: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
   background-image: url("SMPTE_Color_Bars.svg.jpg");
   background-size: cover;
 }
@@ -43,9 +57,10 @@ p {
   padding: 16px;
   text-indent: 50px;
 }
+
 .writinglink {
-  color: #FFF;
-  background-color: #67C3FF;
+  color: #000000;
+  background-color: #B4AFFF;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -57,8 +72,8 @@ p {
   box-shadow: 4px 4px black;
 }
 .photolink {
-  color: #FFF;
-  background-color: #FF5252;
+  color: #000000;
+  background-color: #FFB4AF;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -71,8 +86,7 @@ p {
 }
 
 .writingbutton {
-  color: #FFF;
-  background-color: #67C3FF;
+  color: #000000;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -85,11 +99,25 @@ p {
   box-shadow: 4px 4px black;
 }
 
-.writingbutton:hover {
-  font-weight: bolder;
-  background-color: white;
-  color: black;
+#w1 {
+  background-color: #B4AFFF;
 }
+#w1:hover {
+  background-color: white;
+}
+#w2 {
+  background-color: #FFB4AF;
+}
+#w2:hover {
+  background-color: white;
+}
+#w3 {
+  background-color: #AFFFB4;
+}
+#w3:hover {
+  background-color: white;
+}
+
 
 a:link {
   text-decoration: none;
@@ -127,8 +155,8 @@ a:link {
 }
 
 #resumestyle {
-  color: #FFF;
-  background-color: lightgreen;
+  color: #000000;
+  background-color: #AFFFB4;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
