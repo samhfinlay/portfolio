@@ -45,6 +45,7 @@ a:link {
   box-sizing: border-box;
   height: 200px;
   font-weight: bold;
+  box-shadow: 4px 4px black;
 }
 #reallyoldstuff:hover {
   background-color: white;
@@ -62,6 +63,7 @@ a:link {
   width: 200px;
   height: 200px;
   font-weight: bold;
+  box-shadow: 4px 4px black;
 }
 #favorites:hover {
   background-color: white;
@@ -80,6 +82,7 @@ a:link {
   width: 200px;
   height: 200px;
   font-weight: bold;
+  box-shadow: 4px 4px black;
 }
 #oldstuff:hover {
   background-color: white;
@@ -98,6 +101,7 @@ a:link {
   width: 200px;
   height: 200px;
   font-weight: bold;
+  box-shadow: 4px 4px black;
 }
 #newstuff:hover {
   background-color: white;

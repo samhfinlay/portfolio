@@ -1,6 +1,6 @@
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0px auto;
   margin-top: 20px;
 }
@@ -54,7 +54,7 @@ p {
   border-radius: 5px;
   margin: 20px;
   width: 200px;
-  box-sizing: border-box;
+  box-shadow: 4px 4px black;
 }
 .photolink {
   color: #FFF;
@@ -67,6 +67,7 @@ p {
   border-radius: 5px;
   margin: 20px;
   width: 200px;
+  box-shadow: 4px 4px black;
 }
 
 .writingbutton {
@@ -81,7 +82,9 @@ p {
   margin: 80px auto;
   width: 300px;
   box-sizing: border-box;
+  box-shadow: 4px 4px black;
 }
+
 .writingbutton:hover {
   font-weight: bolder;
   background-color: white;
@@ -96,6 +99,7 @@ a:link {
   background-color: white;
   color: black;
 }
+
 .writinglink:hover {
   font-weight: bolder;
   background-color: white;
@@ -133,6 +137,7 @@ a:link {
   border-radius: 5px;
   margin: 15px auto;
   width: 440px;
+  box-shadow: 4px 4px black;
 }
 #resumestyle:hover {
   background-color: white;

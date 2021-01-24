@@ -2,9 +2,14 @@ body {
   background-color: white;
 }
 
-img {
+img:not(.FlashShadow) {
   border: 2px;
   border-style: solid;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
 }
 
 .horizontal {
@@ -25,9 +30,6 @@ img {
   margin: 20px auto;
 }
 
-img {
-  max-width: 100%;
-}
 .vertleft {
   margin: 20px;
   width: 50%;
@@ -36,6 +38,15 @@ img {
   margin: 20px;
   width: 50%;
 }
+
+.FlashShadow {
+  margin: 20px;
+  width: 50%;
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
 #mybutt {
   position: fixed;
   background-color: white;
