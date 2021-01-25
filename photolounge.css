@@ -10,34 +10,29 @@
 }
 
 body {
-background-position: center;
- background-repeat: no-repeat;
- height: 100%;
- background-image: url("SMPTE_Color_Bars.svg.jpg");
- background-size: cover;
- font-family: 'roboto';
-}
-
-.menu-container {
-  margin: 50px auto;
-  color: #fff;
-  display: flex;
-  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url("SMPTE_Color_Bars.svg.jpg");
+  background-size: cover;
+  font-family: 'roboto';
 }
 
 .menu {
   width: 800px;
- display: flex;
- text-decoration: none;
- justify-content: center;
- font-size: 1.2em;
+  margin: 50px auto;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 1.2em;
+  flex: 1;
 }
 
 a:link {
   text-decoration: none;
 }
 
-#reallyoldstuff {
+.photobox {
   color: black;
   background-color: #C5B1FF;
   font-weight: bold;
@@ -45,71 +40,47 @@ a:link {
   text-align: center;
   border: 2px solid black;
   border-radius: 15px;
-  margin: 20px;
-  margin-right: 20px;
   width: 200px;
-  box-sizing: border-box;
   height: 200px;
+  margin-top: 15px;
   font-weight: bold;
   box-shadow: 4px 4px black;
 }
-#reallyoldstuff:hover {
+
+.left {
+  margin: 10px;
+}
+.right {
+  margin: 10px;
+}
+
+#b1 {
+  background-color: #C5B1FF;
+}
+#b1:hover {
   background-color: white;
   color: black;
 }
-#favorites {
-  color: black;
+#b2 {
   background-color: #FFB1C4;
-  font-weight: bold;
-  padding-top: 90px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 15px;
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  font-weight: bold;
-  box-shadow: 4px 4px black;
 }
-#favorites:hover {
+#b2:hover {
   background-color: white;
   color: black;
 }
 
-#oldstuff {
-  color: black;
+#b3 {
   background-color: #EBFFB1;
-  font-weight: bold;
-  padding-top: 90px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 15px;
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  font-weight: bold;
-  box-shadow: 4px 4px black;
 }
-#oldstuff:hover {
+#b3:hover {
   background-color: white;
   color: black;
 }
 
-#newstuff {
-  color: black;
+#b4 {
   background-color: #B1FFEC;
-  font-weight: bold;
-  padding-top: 90px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 15px;
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  font-weight: bold;
-  box-shadow: 4px 4px black;
 }
-#newstuff:hover {
+#b4:hover {
   background-color: white;
   color: black;
 }

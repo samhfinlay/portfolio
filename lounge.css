@@ -66,7 +66,7 @@ p {
   text-indent: 50px;
 }
 
-.writinglink {
+.topbutton {
   color: #000000;
   background-color: #B4AFFF;
   font-weight: bold;
@@ -75,23 +75,26 @@ p {
   text-align: center;
   border: 2px solid black;
   border-radius: 5px;
-  margin: 20px;
   width: 200px;
   box-shadow: 4px 4px black;
 }
-.photolink {
-  color: #000000;
+.lefty {
+  margin-right: 20px;
+}
+.righty {
+  margin-left: 20px;
+}
+#writinglink {
+  background-color: #B4AFFF;
+}
+#writinglink:hover {
+  background-color: white;
+}
+#photolink {
   background-color: #FFB4AF;
-  font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 5px;
-  margin: 20px;
-  width: 200px;
-  box-shadow: 4px 4px black;
-  font-family: 'Roboto';
+}
+#photolink:hover {
+  background-color: white;
 }
 
 .writingbutton {
@@ -102,11 +105,15 @@ p {
   text-align: center;
   border: 2px solid black;
   border-radius: 5px;
-  margin: 80px auto;
   width: 300px;
   box-sizing: border-box;
   box-shadow: 4px 4px black;
   font-family: 'roboto';
+}
+
+.sizelimit {
+  width: 300px;
+  margin: 70px auto;
 }
 
 #w1 {
@@ -148,7 +155,7 @@ a:link {
   display: flex;
   justify-content: center;
   margin: 0px auto;
-  margin-top: 0px;
+  margin-top: 20px;
   font-family: 'roboto';
 }
 
@@ -174,7 +181,7 @@ a:link {
   text-align: center;
   border: 2px solid black;
   border-radius: 5px;
-  margin: 15px auto;
+  margin: 30px auto;
   width: 440px;
   box-shadow: 4px 4px black;
   font-family: 'roboto';
