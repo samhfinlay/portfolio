@@ -1,5 +1,16 @@
+@font-face {
+  font-family: 'libre';
+  src: url('AbhayaLibre-Regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+}
+
 h1 {
   text-align: center;
+  font-family: 'roboto';
 }
 body {
   color: #414141;
@@ -14,6 +25,7 @@ p {
   background-color: white;
   padding: 16px;
   text-indent: 50px;
+  font-family: 'libre';
 }
 .writinglink {
   color: #FFF;

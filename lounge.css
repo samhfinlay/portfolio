@@ -1,12 +1,19 @@
+@font-face {
+  font-family: 'bebas';
+  src: url('Bebas-Regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+}
+
 .header-container {
   display: flex;
   justify-content: center;
   margin: 0px auto;
   margin-top: 20px;
-}
-
-header {
-  justify-content: center;
+  font-family: 'bebas';
 }
 
 #lefttxt {
@@ -43,13 +50,14 @@ body {
   color: black;
   padding-left: 200px;
   padding-right: 200px;
-  font-size: 1.5em;
 
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
   background-image: url("SMPTE_Color_Bars.svg.jpg");
   background-size: cover;
+
+  font-size: 1.5em;
 }
 
 p {
@@ -83,6 +91,7 @@ p {
   margin: 20px;
   width: 200px;
   box-shadow: 4px 4px black;
+  font-family: 'Roboto';
 }
 
 .writingbutton {
@@ -97,6 +106,7 @@ p {
   width: 300px;
   box-sizing: border-box;
   box-shadow: 4px 4px black;
+  font-family: 'roboto';
 }
 
 #w1 {
@@ -139,6 +149,7 @@ a:link {
   justify-content: center;
   margin: 0px auto;
   margin-top: 0px;
+  font-family: 'roboto';
 }
 
 #mybutt {
@@ -166,6 +177,7 @@ a:link {
   margin: 15px auto;
   width: 440px;
   box-shadow: 4px 4px black;
+  font-family: 'roboto';
 }
 #resumestyle:hover {
   background-color: white;
