@@ -7,6 +7,20 @@ body {
   font-family: 'roboto';
 }
 
+hr {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skill {
+  padding-left: 5em;
+}
+
+.section {
+  margin-left: 80px;
+  font-size: 1.2em;
+}
+
 img {
   width: 225px;
   max-width: 100%;
@@ -34,7 +48,7 @@ P {
 }
 
 ul {
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 #mybutt {
