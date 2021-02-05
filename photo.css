@@ -11,6 +11,9 @@ img {
 img {
   max-width: 100%;
 }
+img:onclick {
+  transform: scale(1.5);
+}
 
 .horizontal {
   width: 600px;
