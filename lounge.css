@@ -186,6 +186,10 @@ a:link {
   box-shadow: 4px 4px black;
   font-family: 'roboto';
 }
+#sizelimitwide {
+  width: 440px;
+  margin: 0px auto;
+}
 #resumestyle:hover {
   background-color: white;
   color: black;
