@@ -135,6 +135,31 @@ p {
   background-color: white;
 }
 
+#n1 {
+  background-color: #C5B1FF;
+}
+#n1:hover {
+  background-color: white;
+}
+#n2 {
+  background-color: #FFB1C4;
+}
+#n2:hover {
+  background-color: white;
+}
+#n3 {
+  background-color: #EBFFB1;
+}
+#n3:hover {
+  background-color: white;
+}
+#n4 {
+  background-color: #B1FFEC;
+}
+#n4:hover {
+  background-color: white;
+}
+
 
 a:link {
   text-decoration: none;
