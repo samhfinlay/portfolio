@@ -52,6 +52,7 @@ body {
   padding-right: 200px;
 
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100%;
   background-image: url("SMPTE_Color_Bars.svg.jpg");
@@ -157,6 +158,12 @@ p {
   background-color: #B1FFEC;
 }
 #n4:hover {
+  background-color: white;
+}
+#n5 {
+  background-color: #C5B1FF;
+}
+#n5:hover {
   background-color: white;
 }
 
