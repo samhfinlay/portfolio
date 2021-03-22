@@ -30,6 +30,11 @@ img:onclick {
   display: flex;
   margin: 20px auto;
 }
+.three {
+  width: 1000px;
+  display: flex;
+  margin: 20px auto;
+}
 
 .singlevert {
   width: 400px;
