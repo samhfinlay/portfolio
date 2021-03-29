@@ -31,9 +31,9 @@ img:onclick {
   margin: 20px auto;
 }
 .three {
-  width: 1000px;
   display: flex;
   margin: 20px auto;
+  justify-content: center;
 }
 
 .singlevert {
@@ -75,17 +75,18 @@ p {
 }
 
 .three {
-  width: 1200px;
   display: flex;
   margin: 5px auto;
+
 }
 
 .vert3 {
   margin: 5px;
   width: 50%;
+  width: 220px;
 }
 
 .side {
   margin: 5px;
-  width: 72%;
+  width: 200px;
 }
