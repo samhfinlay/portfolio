@@ -26,6 +26,7 @@ p {
   padding: 16px;
   text-indent: 50px;
   font-family: 'libre';
+  margin-bottom: -20px;
 }
 .writinglink {
   color: #FFF;
