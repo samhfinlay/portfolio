@@ -7,17 +7,10 @@
     max-width: 100%;
   }
 
-  img {
-    max-width: 100%;
-  }
-  img:onclick {
-    transform: scale(1.5);
-  }
-
   .horizontal {
     width: 300px;
     display: flex;
-    margin: 40px auto;
+    margin: 10px auto;
   }
   .square {
     width: 250px;
@@ -26,6 +19,90 @@
   }
   .vertical {
     width: 200px;
+    display: flex;
+    margin: 20px auto;
+  }
+  .three {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+  }
+
+  .singlevert {
+    width: 400px;
+    height: auto;
+    display: flex;
+    margin: 20px auto;
+  }
+  p {
+    font-size: 18px;
+    text-indent: 50px;
+  }
+  #pad {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .vertleft {
+    margin: 20px;
+    width: 50%;
+  }
+  .vertright {
+    margin: 20px;
+    width: 50%;
+  }
+
+
+  #mybutt {
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    bottom: 20px;
+    border-radius: 5px;
+    left: 20px;
+  }
+  #mybutt:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .three {
+    display: flex;
+    margin: 5px auto;
+
+  }
+
+  .vert3 {
+    margin: 5px;
+    width: 50%;
+    width: 230px;
+  }
+
+  .side {
+    margin: 5px;
+    width: 0px;
+  }
+}
+/*tablets i guess lol*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  img {
+    border: 2px;
+    border-style: solid;
+    max-width: 100%;
+  }
+
+  .horizontal {
+    width: 700px;
+    display: flex;
+    margin: 40px auto;
+  }
+  .square {
+    width: 500px;
+    display: flex;
+    margin: 40px auto;
+  }
+  .vertical {
+    width: 800px;
     display: flex;
     margin: 20px auto;
   }
@@ -97,13 +174,6 @@
     border: 2px;
     border-style: solid;
     max-width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-  img:onclick {
-    transform: scale(1.5);
   }
 
   .horizontal {
