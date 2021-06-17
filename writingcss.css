@@ -1,130 +1,399 @@
-@font-face {
-  font-family: 'libre';
-  src: url('AbhayaLibre-Regular-webfont.woff') format('woff');
+/* mobile */
+@media only screen and (max-width: 400px) {
+  @font-face {
+    font-family: 'libre';
+    src: url('AbhayaLibre-Regular-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Light-webfont.woff') format('woff');
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'roboto';
+  }
+  body {
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.5em;
+  }
+
+  p {
+    background-color: white;
+    padding: 16px;
+    text-indent: 50px;
+    font-family: 'libre';
+    margin-bottom: -20px;
+  }
+  .writinglink {
+    color: #FFF;
+    background-color: #67C3FF;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 20px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+  .photolink {
+    color: #FFF;
+    background-color: #FF5252;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 20px;
+    width: 200px;
+  }
+
+  .writingbutton {
+    color: #FFF;
+    background-color: #67C3FF;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 80px auto;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  .writingbutton:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  .photolink:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+  .writinglink:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  #mybutt {
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    bottom: 20px;
+    border-radius: 5px;
+    left: 20px;
+  }
+  #mybutt:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #resumestyle {
+    color: #FFF;
+    background-color: lightgreen;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 15px auto;
+    width: 440px;
+  }
+  #resumestyle:hover {
+    background-color: white;
+    color: black;
+  }
+
+  #webby {
+    text-align: center;
+    text-indent: 0px;
+  }
 }
 
-@font-face {
-  font-family: 'roboto';
-  src: url('Roboto-Light-webfont.woff') format('woff');
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  @font-face {
+    font-family: 'libre';
+    src: url('AbhayaLibre-Regular-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Light-webfont.woff') format('woff');
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'roboto';
+  }
+  body {
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 1.5em;
+  }
+
+  p {
+    background-color: white;
+    padding: 16px;
+    text-indent: 50px;
+    font-family: 'libre';
+    margin-bottom: -20px;
+  }
+  .writinglink {
+    color: #FFF;
+    background-color: #67C3FF;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 20px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+  .photolink {
+    color: #FFF;
+    background-color: #FF5252;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 20px;
+    width: 200px;
+  }
+
+  .writingbutton {
+    color: #FFF;
+    background-color: #67C3FF;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 80px auto;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  .writingbutton:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  .photolink:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+  .writinglink:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  #mybutt {
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    bottom: 20px;
+    border-radius: 5px;
+    left: 20px;
+  }
+  #mybutt:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #resumestyle {
+    color: #FFF;
+    background-color: lightgreen;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 15px auto;
+    width: 440px;
+  }
+  #resumestyle:hover {
+    background-color: white;
+    color: black;
+  }
+
+  #webby {
+    text-align: center;
+    text-indent: 0px;
+  }
 }
 
-h1 {
-  text-align: center;
-  font-family: 'roboto';
-}
-body {
-  color: black;
-  background-color: white;
-  text-align: left;
-  padding-left: 200px;
-  padding-right: 200px;
-  font-size: 1.5em;
-}
+@media only screen and (min-width: 961px) {
+  @font-face {
+    font-family: 'libre';
+    src: url('AbhayaLibre-Regular-webfont.woff') format('woff');
+  }
 
-p {
-  background-color: white;
-  padding: 16px;
-  text-indent: 50px;
-  font-family: 'libre';
-  margin-bottom: -20px;
-}
-.writinglink {
-  color: #FFF;
-  background-color: #67C3FF;
-  font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
-  margin: 20px;
-  width: 200px;
-  box-sizing: border-box;
-}
-.photolink {
-  color: #FFF;
-  background-color: #FF5252;
-  font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
-  margin: 20px;
-  width: 200px;
-}
+  @font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Light-webfont.woff') format('woff');
+  }
 
-.writingbutton {
-  color: #FFF;
-  background-color: #67C3FF;
-  font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
-  margin: 80px auto;
-  width: 300px;
-  box-sizing: border-box;
-}
-.writingbutton:hover {
-  font-weight: bolder;
-  background-color: white;
-  color: black;
-}
+  h1 {
+    text-align: center;
+    font-family: 'roboto';
+  }
+  body {
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 1.5em;
+  }
 
-a:link {
-  text-decoration: none;
-}
-.photolink:hover {
-  font-weight: bolder;
-  background-color: white;
-  color: black;
-}
-.writinglink:hover {
-  font-weight: bolder;
-  background-color: white;
-  color: black;
-}
+  p {
+    background-color: white;
+    padding: 16px;
+    text-indent: 50px;
+    font-family: 'libre';
+    margin-bottom: -20px;
+  }
+  .writinglink {
+    color: #FFF;
+    background-color: #67C3FF;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 20px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+  .photolink {
+    color: #FFF;
+    background-color: #FF5252;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 20px;
+    width: 200px;
+  }
 
-.menu-container {
-  display: flex;
-  justify-content: center;
-}
+  .writingbutton {
+    color: #FFF;
+    background-color: #67C3FF;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 80px auto;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  .writingbutton:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  .photolink:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+  .writinglink:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: center;
+  }
 
 
 
-#mybutt {
-  position: fixed;
-  background-color: white;
-  padding: 20px;
-  bottom: 20px;
-  border-radius: 5px;
-  left: 20px;
-}
-#mybutt:hover {
-  background-color: black;
-  color: white;
-}
+  #mybutt {
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    bottom: 20px;
+    border-radius: 5px;
+    left: 20px;
+  }
+  #mybutt:hover {
+    background-color: black;
+    color: white;
+  }
 
-#resumestyle {
-  color: #FFF;
-  background-color: lightgreen;
-  font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
-  margin: 15px auto;
-  width: 440px;
-}
-#resumestyle:hover {
-  background-color: white;
-  color: black;
-}
+  #resumestyle {
+    color: #FFF;
+    background-color: lightgreen;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 15px auto;
+    width: 440px;
+  }
+  #resumestyle:hover {
+    background-color: white;
+    color: black;
+  }
 
-#webby {
-  text-align: center;
-  text-indent: 0px;
+  #webby {
+    text-align: center;
+    text-indent: 0px;
+  }
 }
