@@ -1,0 +1,288 @@
+/*mobile*/
+@media only screen and (max-width: 400px) {
+    img {
+      border: 2px;
+      border-style: solid;
+      max-width: 100%;
+    }
+  
+    .horizontal {
+      width: 300px;
+      display: flex;
+      margin: 10px auto;
+    }
+    .square {
+      width: 250px;
+      display: flex;
+      margin: 40px auto;
+    }
+    .vertical {
+      width: 200px;
+      display: flex;
+      margin: 20px auto;
+    }
+    .three {
+      display: flex;
+      margin: 20px auto;
+      justify-content: center;
+    }
+  
+    .singlevert {
+      width: 400px;
+      height: auto;
+      display: flex;
+      margin: 20px auto;
+    }
+    p {
+      font-size: 18px;
+      text-indent: 50px;
+    }
+    #pad {
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+  
+    .vertleft {
+      margin: 20px;
+      width: 50%;
+    }
+    .vertright {
+      margin: 20px;
+      width: 50%;
+    }
+  
+  
+    #mybutt {
+      position: fixed;
+      background-color: white;
+      padding: 20px;
+      bottom: 20px;
+      border-radius: 5px;
+      left: 20px;
+    }
+    #mybutt:hover {
+      background-color: black;
+      color: white;
+    }
+  
+    .three {
+      display: flex;
+      margin: 5px auto;
+  
+    }
+  
+    .vert3 {
+      margin: 5px;
+      width: 50%;
+      width: 230px;
+    }
+  
+    .side {
+      margin: 5px;
+      width: 0px;
+    }
+  }
+  /*tablets i guess lol*/
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    img {
+      border: 2px;
+      border-style: solid;
+      max-width: 100%;
+    }
+  
+    .horizontal {
+      width: 700px;
+      display: flex;
+      margin: 40px auto;
+    }
+    .square {
+      width: 500px;
+      display: flex;
+      margin: 40px auto;
+    }
+    .vertical {
+      width: 800px;
+      display: flex;
+      margin: 20px auto;
+    }
+    .three {
+      display: flex;
+      margin: 20px auto;
+      justify-content: center;
+    }
+  
+    .singlevert {
+      width: 400px;
+      height: auto;
+      display: flex;
+      margin: 20px auto;
+    }
+    p {
+      font-size: 18px;
+      text-indent: 50px;
+    }
+    #pad {
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+  
+    .vertleft {
+      margin: 20px;
+      width: 50%;
+    }
+    .vertright {
+      margin: 20px;
+      width: 50%;
+    }
+  
+  
+    #mybutt {
+      position: fixed;
+      background-color: white;
+      padding: 20px;
+      bottom: 20px;
+      border-radius: 5px;
+      left: 20px;
+    }
+    #mybutt:hover {
+      background-color: black;
+      color: white;
+    }
+  
+    .three {
+      display: flex;
+      margin: 5px auto;
+  
+    }
+  
+    .vert3 {
+      margin: 5px;
+      width: 50%;
+      width: 230px;
+    }
+  
+    .side {
+      margin: 5px;
+      width: 200px;
+    }
+  }
+  /*desktop*/
+  @media only screen and (min-width: 961px) {
+  
+    img {
+      border: 2px;
+      border-style: solid;
+      max-width: 100%;
+    }
+  
+    .horizontal {
+      width: 700px;
+      display: flex;
+      margin: 40px auto;
+    }
+    .square {
+      width: 500px;
+      display: flex;
+      margin: 40px auto;
+    }
+    .vertical {
+      width: 800px;
+      display: flex;
+      margin: 20px auto;
+    }
+    .three {
+      display: flex;
+      margin: 20px auto;
+      justify-content: center;
+    }
+  
+    .singlevert {
+      width: 500px;
+      height: auto;
+      display: flex;
+      margin: 20px auto;
+    }
+    #pad {
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+  
+    .vertleft {
+      margin: 20px;
+      width: 50%;
+    }
+    .vertright {
+      margin: 20px;
+      width: 50%;
+    }
+/* caption */
+figcaption {
+    font-size: .7em;
+    text-align: center;
+}
+
+/* text */
+
+@font-face {
+    font-family: 'libre';
+    src: url('AbhayaLibre-Regular-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Light-webfont.woff') format('woff');
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'roboto';
+  }
+  body {
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 1.5em;
+  }
+
+  p {
+    background-color: white;
+    padding: 16px;
+    text-indent: 50px;
+    font-family: 'libre';
+    margin-bottom: -20px;
+  }
+  
+  /* button */
+    #mybutt {
+      position: fixed;
+      background-color: white;
+      padding: 20px;
+      bottom: 20px;
+      border-radius: 5px;
+      left: 20px;
+    }
+    #mybutt:hover {
+      background-color: black;
+      color: white;
+    }
+  
+    .three {
+      display: flex;
+      margin: 5px auto;
+  
+    }
+  
+    .vert3 {
+      margin: 5px;
+      width: 50%;
+      width: 230px;
+    }
+  
+    .side {
+      margin: 5px;
+      width: 200px;
+    }
+  }
+  
