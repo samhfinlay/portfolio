@@ -27,6 +27,22 @@
   width: 400px;
 }
 
+.junk {
+
+  color: #000000;
+  background-color: #ababab;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+  vertical-align: middle;
+  box-shadow: 4px 4px black;
+
+}
+
 #handz {
   height: 150px;
   margin-top: 0;
@@ -178,6 +194,12 @@ a:link {
   text-decoration: none;
 }
 .photolink:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+}
+
+.junk:hover {
   font-weight: bolder;
   background-color: white;
   color: black;
