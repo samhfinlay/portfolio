@@ -45,6 +45,19 @@
 
 }
 
+.circle {
+  color: #000000;
+  background-color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 100px;
+  width: 100px;
+  box-shadow: 4px 4px black;
+}
+
 #handz {
   height: 150px;
   margin-top: 0;
