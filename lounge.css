@@ -30,17 +30,15 @@
 .junk {
 
   color: #000000;
-  background-color: #ababab;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   border: 2px solid black;
   border-radius: 5px;
-  width: 200px;
+  width: 300px;
   vertical-align: middle;
   box-shadow: 4px 4px black;
-  background-color: #EBFFB1;
 
 
 }
