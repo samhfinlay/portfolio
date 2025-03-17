@@ -170,6 +170,7 @@
 /*desktop*/
 @media only screen and (min-width: 961px) {
 
+  
   img {
     border: 2px;
     border-style: solid;
@@ -198,7 +199,7 @@
   }
 
   .singlevert {
-    width: 400px;
+    width: 500px;
     height: auto;
     display: flex;
     margin: 20px auto;
@@ -216,8 +217,46 @@
     margin: 20px;
     width: 50%;
   }
+/* caption */
+figcaption {
+  font-size: .7em;
+  text-align: center;
+}
 
+/* text */
 
+@font-face {
+  font-family: 'libre';
+  src: url('AbhayaLibre-Regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+}
+
+h1 {
+  text-align: center;
+  font-family: 'roboto';
+}
+body {
+  color: black;
+  background-color: white;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 1.5em;
+}
+
+p {
+  background-color: white;
+  padding: 16px;
+  text-indent: 50px;
+  font-family: 'libre';
+  margin-bottom: -20px;
+}
+
+/* button */
   #mybutt {
     position: fixed;
     background-color: white;
