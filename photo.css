@@ -178,7 +178,7 @@
   }
 
   .horizontal {
-    width: 700px;
+    width: 70%;
     display: flex;
     margin: 40px auto;
   }
@@ -188,7 +188,7 @@
     margin: 40px auto;
   }
   .vertical {
-    width: 800px;
+    width: 65%px;
     display: flex;
     margin: 20px auto;
   }

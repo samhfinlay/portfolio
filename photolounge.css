@@ -97,3 +97,9 @@ a:link {
   background-color: black;
   color: white;
 }
+
+.three {
+  display: flex;
+  margin: 5px auto;
+
+}
