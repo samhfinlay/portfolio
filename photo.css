@@ -203,10 +203,6 @@
     display: flex;
     margin: 20px auto;
   }
-  p {
-    font-size: 18px;
-    text-indent: 50px;
-  }
   #pad {
     margin-right: 50px;
     margin-left: 50px;
