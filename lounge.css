@@ -152,8 +152,8 @@ p {
 .vwrap {
   display: flex;
   flex-flow: column nowrap;
+  margin: 50px auto;
   align-items: center;
-  margin: 5px;
 
 }
 
