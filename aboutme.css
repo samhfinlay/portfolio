@@ -31,8 +31,15 @@ img {
   border-style: solid;
 }
 .photo {
-  margin: 10px auto;
+  margin: 40px auto 10px;
   text-align: center;
+}
+
+.photo .caption {
+  margin: 16px auto 0;
+  margin-left: 0;
+  max-width: 100%;
+  font-style: italic;
 }
 
 h1 {
