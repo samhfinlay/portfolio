@@ -5,7 +5,9 @@
 
 body {
   font-family: 'roboto';
-  max-width: 65ch;
+  font-size: 1.4em;
+  font-weight: 300;
+  max-width: 52ch;
   margin-left: auto;
   margin-right: auto;
 }
@@ -25,7 +27,7 @@ hr {
 }
 
 img {
-  width: 225px;
+  width: 315px;
   max-width: 100%;
   border: 2px;
   border-style: solid;
@@ -73,3 +75,4 @@ ul {
   background-color: black;
   color: white;
 }
+
