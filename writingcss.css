@@ -21,6 +21,9 @@
     padding-left: 50px;
     padding-right: 50px;
     font-size: 2em;
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {
@@ -154,6 +157,9 @@
     padding-left: 50px;
     padding-right: 50px;
     font-size: 1.5em;
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {
@@ -284,9 +290,12 @@
     color: black;
     background-color: white;
     text-align: left;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-size: 1.5em;
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {

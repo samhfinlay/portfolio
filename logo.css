@@ -1,0 +1,18 @@
+/* Floating home logo - top left, stays visible on scroll */
+.home-logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+  display: block;
+  transition: opacity 0.2s;
+}
+.home-logo:hover {
+  opacity: 0.8;
+}
+.home-logo img {
+  width: 90px;
+  height: auto;
+  display: block;
+  border: none !important;
+}
